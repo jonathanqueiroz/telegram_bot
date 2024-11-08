@@ -1,0 +1,41 @@
+# Ignore arquivos de build
+bin/
+obj/
+
+# Ignore arquivos de configuração do usuário
+*.user
+*.suo
+
+# Ignore arquivos de log
+*.log
+
+# Ignore pacotes do NuGet
+*.nupkg
+packages/
+
+# Ignore arquivos de lock
+project.lock.json
+project.fragment.lock.json
+
+# Ignore arquivos de backup
+*.bak
+
+# Ignore arquivos temporários
+*.tmp
+*.temp
+
+# Ignore arquivos de cache
+.vscode/
+.idea/
+*.swp
+
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos e pastas do Visual Studio
+.vs/
+DesignTimeBuild/
+FileContextIndex/
+.vscode/
+.v17/
